@@ -1,0 +1,246 @@
+<html>
+	<head>
+		<title>Menu Principal</title>
+		<meta content="Jeffrey Sanchez" name="author">
+		<style type="text/css">
+		</style>
+		<script type="text/javascript" src="../script/jquery.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$(".oculta").css("display", "none");
+			});
+		</script>
+		<script language="javascript">	
+			function Aparecer(opcion){
+				switch(opcion){
+					case 1:
+						$("#lor").show(250).fadeIn(100);
+					        $("#lor1").show(250).fadeIn(100);
+						$("#lvd").show(250).fadeIn(1000);
+						$("#lvd1").show(250).fadeIn(1000);
+						$("#cvd").show(250).fadeIn(1000);
+						$("#cvd1").show(250).fadeIn(1000);
+						$("#amr").show(250).fadeIn(1000);
+						$("#amr1").show(250).fadeIn(1000);
+						$("#per").show(250).fadeIn(1000);
+						$("#infp").delay(6300).fadeIn(1000);
+						$("#ent").delay(7000).fadeIn(1000);
+						break;
+					case 2:
+						$("#mas").delay(100).fadeOut(100);
+						$("#col").delay(500).fadeIn(1000);
+						$("#col2").delay(1800).fadeIn(1000);
+						$("#col3").delay(3500).fadeIn(1000);
+						break;
+					case 3:
+						$("#mas2").delay(100).fadeOut(100);
+						$("#ben").delay(500).fadeIn(1000);
+						$("#ben1").delay(2000).fadeIn(1000);
+						$("#ben2").delay(4000).fadeIn(1000);
+						break;
+					case 4:
+						$("#mas3").delay(100).fadeOut(100);
+						$("#tec").delay(500).fadeIn(1000);
+						$("#tec1").delay(2000).fadeIn(1000);
+						
+						break;
+					case 5:
+						$("#mas4").delay(100).fadeOut(100);
+						$("#apt").delay(500).fadeIn(1000);
+						$("#apt1").delay(3000).fadeIn(1000);
+						$("#apt2").delay(6000).fadeIn(1000);
+						break;
+				
+				}
+			}
+		</script>
+		<script language="javascript">	
+			function Desaparecer(opcion){
+				switch(opcion){
+					case 1:
+						$("#lo").delay(100).fadeOut(500);
+						$("#lor1").delay(100).fadeOut(500);
+						$("#lv").delay(100).fadeOut(500);
+						$("#lvd1").delay(100).fadeOut(500);
+						$("#cv").delay(100).fadeOut(500);
+						$("#cvd1").delay(100).fadeOut(500);
+						$("#amr1").delay(100).fadeOut(500);
+						$("#per").delay(100).fadeIn(500);
+						$("#ent").delay(100).fadeOut(500);
+						$("#infp").delay(100).fadeOut(500);
+						$("#inf").delay(100).fadeIn(500);
+						$("#mas").delay(500).fadeIn(500);
+						$("#mas2").delay(1000).fadeIn(500);
+						$("#mas3").delay(1500).fadeIn(500);
+						$("#mas4").delay(2000).fadeIn(500);
+					case 2:
+						
+				}
+			}
+		</script>
+	</head>
+
+	<body onload="Aparecer(1),Aparecer(14)">
+		<!--Fondo principal-->
+		
+
+<marquee behavior="slide" loop="1" scrolldelay="140" direction="left" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 254px; height: 572px;
+			overflow: hidden; visibility: visible;z-index: 2;"><img alt="titulo" src="../imagenes/png/cuadro-azul.png"  class="oculta" id="lor" alt="lor"></marquee>
+
+<marquee behavior="slide" loop="1" scrolldelay="1" direction="up" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 254px; height: 572px;
+			overflow: hidden; visibility: visible;z-index: 5;"><img alt="titulo" src="../imagenes/png/rectangulo1.png"  class="oculta" id="lor1" alt="lor"></marquee>
+
+
+
+
+	<marquee behavior="scroll" loop="1" scrolldelay="128" direction="left" style="border: 0px solid; position: absolute; top: 0px; left: 250px; width: 273px; height: 572px;
+			overflow: hidden; visibility: visible;z-index: 2;"><img alt="titulo" src="../imagenes/png/cuadro-fucsia.png" class="oculta" id="lvd" alt="lvd"></marquee>
+
+<marquee behavior="scroll" loop="1" scrolldelay="1" direction="up" style="border: 0px solid; position: absolute; top: 2px; left: 254px; width: 271px; height: 572px;
+			overflow: hidden; visibility: visible;z-index: 5;"><img alt="titulo" src="../imagenes/png/rectangulo2.png" class="oculta" id="lvd1" alt="lvd"></marquee>
+
+
+
+	<marquee behavior="scroll" loop="1" scrolldelay="136" direction="left" style="border: 0px solid; position: absolute; top: 0px; left: 518px; width: 261px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 1;"><img alt="titulo" src="../imagenes/png/cuadro-verde.png" class="oculta" id="cvd" alt="lvd"></marquee>
+
+<marquee behavior="scroll" loop="1" scrolldelay="1" direction="up" style="border: 0px solid; position: absolute; top: 2px; left: 519px; width: 258px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 5;"><img alt="titulo" src="../imagenes/png/rectangulo3.png" class="oculta" id="cvd1" alt="lvd"></marquee>
+
+	<marquee behavior="scroll" loop="1" scrolldelay="140" direction="left" style="border: 0px solid; position: absolute; top: 0px; left: 771px; width: 253px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 1;"><img alt="titulo" src="../imagenes/png/cuadro-amarillo.png" class="oculta" id="amr" alt="lvd"></marquee>
+
+<marquee behavior="scroll" loop="1" scrolldelay="1" direction="up" style="border: 0px solid; position: absolute; top: 2px; left: 775px; width: 248px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 5;"><img alt="titulo" src="../imagenes/png/rectangulo4.png" class="oculta" id="amr1" alt="lvd"></marquee>
+
+<marquee behavior="scroll" loop="1" scrolldelay="100" direction="up" style="border: 0px solid; position: absolute; top: 210px; left: 0px; width: 1024px; height: 358px;
+			overflow: hidden; visibility: visible; z-index: 4;"><img alt="titulo" src="../imagenes/png/imag-princII.png" class="oculta" id="per" alt="lvd"></marquee>
+
+
+<img src="../imagenes/png/info-princ.png" style="border: 0px solid; position: absolute; top: 49px; left: 242px; width: 565px; height: 279px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="infp" name="BtnCapistrano" alt="BtnCapistrano">
+
+
+<a href="#">
+		<img src="../imagenes/png/boton-entrar.png" style="border: 0px solid; position: absolute; top: 2px; left: 976px; width: 49px; height: 50px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="ent" name="BtnGuanta" alt="BtnGuanta" onclick="Desaparecer(1)"
+		 onmouseover="(src='../imagenes/png/boton-entrarII.png')" onmouseout="(src='../imagenes/png/boton-entrar.png')"
+		></a>
+
+
+
+<!-- infografia -->
+<img src="../imagenes/png/info-princ-peq.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 492px; height: 148px;
+		overflow: hidden; visibility: visible; z-index: 7; display: none;" id="inf" name="BtnCapistrano" alt="BtnCapistrano">
+
+
+
+
+
+<!--bloque azul-->
+
+<a href="#">
+<img src="../imagenes/png/boton-mas.png" style="border: 0px solid; position: absolute; top: 290px; left: 72px; width: 100px; height: 86px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="mas" name="BtnCapistrano" alt="BtnCapistrano" onclick="Aparecer(2)"
+onmouseover="(src='../imagenes/png/boton-masII.png')" onmouseout="(src='../imagenes/png/boton-mas.png')"
+		></a>
+
+
+<img src="../imagenes/png/colectivo1.png" style="border: 0px solid; position: absolute; top: 141px; left: 7px; width: 243px; height: 102px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="col" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+<img src="../imagenes/png/colectivo2.png" style="border: 0px solid; position: absolute; top: 210px; left: 0px; width: 194px; height: 202px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="col2" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+<img src="../imagenes/png/colectivo3.png" style="border: 0px solid; position: absolute; top: 380px; left: 0px; width: 157px; height: 142px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="col3" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+<!--bloque fucsia-->
+
+<a href="#">
+<img src="../imagenes/png/boton-mas.png" style="border: 0px solid; position: absolute; top: 166px; left: 338px; width: 100px; height: 86px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="mas2" name="BtnCapistrano" alt="BtnCapistrano" onclick="Aparecer(3)"
+onmouseover="(src='../imagenes/png/boton-masII.png')" onmouseout="(src='../imagenes/png/boton-mas.png')"
+		></a>
+
+
+
+<img src="../imagenes/png/beneficios1.png" style="border: 0px solid; position: absolute; top: 104px; left: 256px; width: 253px; height: 85px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="ben" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+<img src="../imagenes/png/beneficios2.png" style="border: 0px solid; position: absolute; top: 182px; left: 254px; width: 263px; height: 60px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="ben1" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+<img src="../imagenes/png/beneficios3.png" style="border: 0px solid; position: absolute; top: 240px; left: 254px; width: 227px; height: 81px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="ben2" name="ben2" alt="ben2"
+
+		>
+
+
+<!--bloque verde-->
+
+<a href="#">
+<img src="../imagenes/png/boton-mas.png" style="border: 0px solid; position: absolute; top: 200px; left: 604px; width: 100px; height: 86px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="mas3" name="BtnCapistrano" alt="BtnCapistrano" onclick="Aparecer(4)"
+onmouseover="(src='../imagenes/png/boton-masII.png')" onmouseout="(src='../imagenes/png/boton-mas.png')"
+		></a>
+
+<img src="../imagenes/png/tecnicas1.png" style="border: 0px solid; position: absolute; top: 60px; left: 522px; width: 199px; height: 142px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="tec" name="tec" alt="tec"
+
+		>
+
+
+<img src="../imagenes/png/tecnicas2.png" style="border: 0px solid; position: absolute; top: 196px; left: 530px; width: 241px; height: 125px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="tec1" name="tec1" alt="tec1"
+
+		>
+
+
+
+
+
+<!--bloque amarillo-->
+
+
+<a href="#">
+<img src="../imagenes/png/boton-mas.png" style="border: 0px solid; position: absolute; top: 90px; left: 852px; width: 100px; height: 86px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="mas4" name="BtnCapistrano" alt="BtnCapistrano" onclick="Aparecer(5)"
+onmouseover="(src='../imagenes/png/boton-masII.png')" onmouseout="(src='../imagenes/png/boton-mas.png')"
+		></a>
+
+
+<img src="../imagenes/png/aptitud1.png" style="border: 0px solid; position: absolute; top: 0px; left: 776px; width: 248px; height: 108px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="apt" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+<img src="../imagenes/png/aptitud2.png" style="border: 0px solid; position: absolute; top: 104px; left: 778px; width: 132px; height: 235px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="apt1" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+<img src="../imagenes/png/aptitud3.png" style="border: 0px solid; position: absolute; top: 104px; left: 898px; width: 125px; height: 293px;
+		overflow: hidden; visibility: visible; z-index: 3; display: none;" id="apt2" name="BtnCapistrano" alt="BtnCapistrano"
+
+		>
+
+
+
